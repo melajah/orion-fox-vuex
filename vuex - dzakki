@@ -1,0 +1,27 @@
+Vuex merupakan state management pattern and library pada vue js, yang dimana tugasnya sebagai centralized store untuk components dalam aplikasi vuejs.
+
+centralized store itu adalah tempat penerima data yang bersifat global. (data yang bakal di gunakan di beberapa components)
+
+Kenapa kita harus menggunakan Vuex?
+
+- ketika kita memiliki deep component yang dimana, deep component membutuhkan data dari parent component, sehingga kita membutuhkan passing data yang sangat rumit dan lama.
+
+* https://miro.medium.com/max/4000/1*FswHvFsErWNxNkDluWp6Jg.jpeg
+
+- ketika aplikasi kita semakin besar dimana jika data datanya sudah semakin banyak dan makin susah untuk di kelola maka menggunakan vuex adalah hal pilihan yg tepat
+
+- dan banyak lagi
+
+meskipun kita menggunakan vuex, props dengan emit akan tetap dibutuhkan.
+
+
+
+https://www.youtube.com/watch?v=_2_C9j-8CtM
+state ini g nempel ke salah satu components/ berdiri sendiri
+
+proses store vs prosess new vue (computed, method, data)
+
+
+
+https://res.cloudinary.com/practicaldev/image/fetch/s--TMG8Y8P4--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://jerickson.net/img/vuex-flow/full_overview.png
+
